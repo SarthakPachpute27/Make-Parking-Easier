@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Parking Availability" icon-name="utility:car">
+        <div class="slds-m-around_medium">
+            <template if:true={availableSlotsCount}>
+                <p class="slds-text-heading_large">There are <strong>{availableSlotsCount}</strong> available parking slots.</p>
+            </template>
+            <template if:true={error}>
+                <p>Error loading slot count.</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>

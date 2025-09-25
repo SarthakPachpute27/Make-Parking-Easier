@@ -5,7 +5,7 @@
       "default": true
     }
   ],
-  "name": "Make Parking Easier",
+  "name": "MakeParkingEasier",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "64.0"
